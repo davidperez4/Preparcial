@@ -22,6 +22,18 @@ export default function Home() {
           >
             Crear Nuevo Actor
           </Link>
+          <Link
+            href="/movies"
+            className={`${styles.button} ${styles.primaryButton}`}
+          >
+            Ver Películas
+          </Link>
+          <Link
+            href="/movies/crear"
+            className={`${styles.button} ${styles.secondaryButton}`}
+          >
+            Crear Nueva Película
+          </Link>
         </div>
       </div>
     </div>
