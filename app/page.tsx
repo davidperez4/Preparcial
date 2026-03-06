@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.heading}>Bienvenido a FronArte7</h1>
+        <h1 className={styles.heading}>Bienvenido a FrontArte7</h1>
         <p className={styles.description}>
           Sistema de gestión de actores para la plataforma de arte
         </p>
